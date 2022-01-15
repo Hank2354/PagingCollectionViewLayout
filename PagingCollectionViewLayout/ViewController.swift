@@ -10,7 +10,7 @@ import UIKit
 class ViewController: UIViewController {
     
     // Properties
-    var numberOfItemsInCollectionView: Int = 5
+    var numberOfItemsInCollectionView: Int = 10
     
     var colorsOfItemsInCollectionView: [UIColor] = [.systemYellow, .blue, .green, .red, .brown]
     
@@ -22,7 +22,7 @@ class ViewController: UIViewController {
         layout.itemSize = CGSize(width: UIScreen.main.bounds.width - 50,
                                  height: UIScreen.main.bounds.height / 3)
         
-        layout.sectionInset = .init(top: 2, left: 2, bottom: 2, right: 2)
+        layout.sectionInset = .init(top: 2, left: 10, bottom: 2, right: 2)
         
         layout.scrollDirection = .horizontal
         
@@ -30,6 +30,7 @@ class ViewController: UIViewController {
         view.translatesAutoresizingMaskIntoConstraints = false
         
         view.backgroundColor = .clear
+        view.decelerationRate = .fast
         
         view.register(UICollectionViewCell.self, forCellWithReuseIdentifier: "cell")
         

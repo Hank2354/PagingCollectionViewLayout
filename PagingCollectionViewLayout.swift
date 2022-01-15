@@ -23,7 +23,7 @@ class PagingCollectionViewLayout: UICollectionViewFlowLayout {
         // When user stop scroll CollectionView get approx number of selected page and save scroll speed
         if scrollDirection == .horizontal {
             
-            pageLength = self.itemSize.width
+            pageLength = self.itemSize.width + sectionInset.left
             approxPage = collectionView.contentOffset.x / pageLength
             speed      = velocity.x
             
@@ -58,10 +58,10 @@ class PagingCollectionViewLayout: UICollectionViewFlowLayout {
         
         // If speed = 0, return the offset required for correct display currentPage
         guard speed != 0 else {
-            
+
             if scrollDirection == .horizontal {
                 
-                return CGPoint(x: nextOrCurrentPage * pageLength, y: 0)
+                return CGPoint(x: (nextOrCurrentPage * pageLength) + self.sectionInset.left, y: 0)
                 
             } else {
                 
