@@ -38,7 +38,7 @@
 		41E565392792D941009D2574 = {
 			isa = PBXGroup;
 			children = (
-				41E565442792D941009D2574 /* PagingCollectionViewLayout */,
+				41E565442792D941009D2574 /* PagingCollectionViewLayout Demo */,
 				41E565592792D9B2009D2574 /* PagingCollectionViewLayout.swift */,
 				41E565432792D941009D2574 /* Products */,
 			);
@@ -52,7 +52,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		41E565442792D941009D2574 /* PagingCollectionViewLayout */ = {
+		41E565442792D941009D2574 /* PagingCollectionViewLayout Demo */ = {
 			isa = PBXGroup;
 			children = (
 				41E565452792D941009D2574 /* AppDelegate.swift */,
@@ -61,7 +61,7 @@
 				41E565502792D943009D2574 /* LaunchScreen.storyboard */,
 				41E565532792D943009D2574 /* Info.plist */,
 			);
-			path = PagingCollectionViewLayout;
+			path = "PagingCollectionViewLayout Demo";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -279,7 +279,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = WJVB936MM2;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = PagingCollectionViewLayout/Info.plist;
+				INFOPLIST_FILE = "PagingCollectionViewLayout Demo/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -306,7 +306,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = WJVB936MM2;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = PagingCollectionViewLayout/Info.plist;
+				INFOPLIST_FILE = "PagingCollectionViewLayout Demo/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
