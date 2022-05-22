@@ -1,4 +1,4 @@
-![Header](https://i.yapx.ru/QIrKf.png)
+![Header](https://i.imgur.com/wUzTh5h.png)
 
 # PagingCollectionViewLayout
 
@@ -18,7 +18,7 @@ comparison below
 
 | `collectionView.isPagingEnabled = true` | `PagingCollectionViewLayout` |
 |:---------:|:---------:|
-| ![](https://i.yapx.ru/QIr16.gif) | ![](https://i.yapx.ru/QIr2G.gif) |
+| ![](https://i.imgur.com/mCwbdiW.gif) | ![](https://i.stack.imgur.com/W6bqM.gif) |
 
 MARK: When use PagingCollectionViewLayout, shoud be set `collectionView.isPagingEnabled = false`
 
